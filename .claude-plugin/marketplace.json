@@ -8,7 +8,7 @@
     {
       "name": "hypeless",
       "description": "Build REST APIs with Express + TypeScript + Prisma",
-      "source": "."
+      "source": "./plugin"
     }
   ]
 }

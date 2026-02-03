@@ -10,20 +10,17 @@ Hypeless is a Claude Code plugin for building REST APIs with Express + TypeScrip
 
 ```
 hypeless/
-├── agents/                   ### Specialist AI agents
-│   ├── express-pro.md          # Express
-│   ├── typescript-pro.md       # TypeScript
-│   ├── prisma-pro.md           # Prisma
-│   ├── stack-orchestrator.md   # Agent orchestrator
-│   └── task-distributor.md     # Task manager
-├── skills/                   ### User-invoked scaffolding commands
-│   ├── init-rest/              # Bootstrap new API project
-│   ├── model/                  # Add Prisma models
-│   ├── route/                  # Scaffold REST endpoints
-│   ├── middleware/             # Create middleware
-│   ├── service/                # Extract business logic
-│   └── review/                 # Code review coordination
-└── hooks.json                  # PostToolUse TypeScript validation
+├── .claude-plugin/
+│   └── marketplace.json        # Marketplace definition
+├── plugin/
+│   ├── .claude-plugin/
+│   │   └── plugin.json         # Plugin metadata
+│   ├── agents/                 # Specialist AI agents
+│   ├── skills/                 # Scaffolding commands
+│   └── hooks.json              # TypeScript validation hook
+├── docs/
+├── README.md
+└── CLAUDE.md
 ```
 
 ## Skills Usage
