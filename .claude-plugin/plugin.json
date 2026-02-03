@@ -1,0 +1,7 @@
+{
+  "name": "hypeless",
+  "description": "A simple plugin for building REST APIs with Express + TypeScript + Prisma",
+  "author": {
+    "name": "jmsdnns"
+  }
+}

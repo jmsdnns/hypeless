@@ -1,0 +1,22 @@
+# Claude Code local settings
+.claude/
+
+# Node (generated projects)
+node_modules/
+dist/
+*.log
+*.db
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
