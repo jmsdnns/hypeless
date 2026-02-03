@@ -1,0 +1,14 @@
+{
+  "name": "hypeless",
+  "description": "REST API plugin for Express + TypeScript + Prisma",
+  "owner": {
+    "name": "jmsdnns"
+  },
+  "plugins": [
+    {
+      "name": "hypeless",
+      "description": "Build REST APIs with Express + TypeScript + Prisma",
+      "source": "."
+    }
+  ]
+}
